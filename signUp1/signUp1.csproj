@@ -52,6 +52,12 @@
     <Compile Include="datePicker.Designer.cs">
       <DependentUpon>datePicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="dialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dialogBox.Designer.cs">
+      <DependentUpon>dialogBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="datePicker.resx">
       <DependentUpon>datePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogBox.resx">
+      <DependentUpon>dialogBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
