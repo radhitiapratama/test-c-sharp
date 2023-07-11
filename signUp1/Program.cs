@@ -16,7 +16,7 @@ namespace signUp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new signUp());
+            Application.Run(new datePicker());
         }
     }
 }
