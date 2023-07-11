@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="radioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="radioButton.Designer.cs">
+      <DependentUpon>radioButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="signUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="radioButton.resx">
+      <DependentUpon>radioButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="signUp.resx">
       <DependentUpon>signUp.cs</DependentUpon>
     </EmbeddedResource>
